@@ -29,7 +29,7 @@ def test_02():
         17,
     ]
 
-
+test_02 ()
 def test_03():
     assert pregunta.ingest_data().porcentaje_de_palabras_clave.to_list() == [
         15.9,
@@ -116,11 +116,11 @@ def test_04():
     )
 
 
-test = {
-    "01": test_01,
-    "02": test_02,
-    "03": test_03,
-    "04": test_04,
-}[sys.argv[1]]
+# test = {
+#     "01": test_01,
+#     "02": test_02,
+#     "03": test_03,
+#     "04": test_04,
+# }[sys.argv[1]]
 
-test()
+# test()
